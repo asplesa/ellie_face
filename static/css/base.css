@@ -104,6 +104,25 @@ footer {
     color: black;
 }
 
+/* -------------------------------- Best Sellers on Homepage */
+.best-sellers-header {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 2.6rem;
+}
+
+
+.homepage-cards, .homepage-cards-3 {
+    height: 375px;
+    margin-top: 2rem;
+}
+
+.shop-now-button {
+    background: #fff099;
+    color: black;
+    min-width: 100px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */

@@ -2,10 +2,15 @@ html {
     height: 100%;
 }
 
-body {
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
     background: url('/media/ellieface_cover_image.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: 500px;
     color: #555;
     font-family: 'Lato';
 }
@@ -62,6 +67,41 @@ body {
 
 .banner-font {
     font-size: 15px !important;
+}
+
+/* -------------------------------- Footer */
+footer {
+    background-color:#fff099;
+    min-height: 130px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.footer-link {
+    text-transform: uppercase;
+    display: block;
+    color: black;
+    padding: 5px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+.footer-row {
+    padding-top: 35px;
+    margin: 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.social-link {
+    color: black;
 }
 
 /* -------------------------------- Media Queries */

@@ -2,13 +2,11 @@
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Shop
-            </a>
+                aria-haspopup="true" aria-expanded="false">Shop</a>
             <div class="dropdown-menu border-0" aria-labelledby="shop-link">
-                <a href="" class="dropdown-item">Face</a>
-                <a href="" class="dropdown-item ">Eyes</a>
-                <a href="" class="dropdown-item ">Lips</a>
+                <a href="{% url 'products' %}?category=face" class="dropdown-item">Face</a>
+                <a href="{% url 'products' %}?category=eyes" class="dropdown-item ">Eyes</a>
+                <a href="{% url 'products' %}?category=lips" class="dropdown-item">Lips</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>

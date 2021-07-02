@@ -1,0 +1,364 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "23",
+            "name": "Bronzer",
+            "description": "Our must-have Bronzer Brush now features luxuriously soft bristles and a more rounded brush head to provide smoother, more even application of bronzer. Perfect for use with our popular Illuminating Bronzing Powder and Bronzing Powder",
+            "price": 19.99,
+            "category": 1,
+            "rating": 4,
+            "image_url": null,
+            "image": "bobbibrown_2013bronzerblushduo010.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "7407",
+            "name": "BabySkin Primer",
+            "description": "Maybelline BabySkin Primer is a Primer.",
+            "price": 23.99,
+            "category": 1,
+            "rating": 4.5,
+            "image_url": null,
+            "image": "maybelline_babyskin.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "7079",
+            "name": "Pro Contour Brush",
+            "description":"LORAC Pro Contour Brush is a Brush",
+            "price": 25.95,
+            "category": 1,
+            "rating": 3,
+            "image_url": null,
+            "image": "lorac_procontou025.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "2591",
+            "name": "Face Brush",
+            "description": "MAC Face Brush is a Brush. There are 1 shades that have been released, which you can select from below",
+            "price": 19.99,
+            "category": 1,
+            "rating": 2.5,
+            "image_url": null,
+            "image": "mac_makingprettybrushes008.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "1583",
+            "name": "Blush",
+            "description": "A soft, luxurious brush designed to glide over the face with ease",
+            "price": 15.99,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": null,
+            "image": "giorgioarmani_summer2013palette001.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "1007",
+            "name": "Beauty Brush",
+            "description": "A natural beauty brush made of pony and goat hair for extreme softness and precise application. Use with powders to apply all over the face, especially with the Warm Glow",
+            "price": 23.99,
+            "category": 1,
+            "rating": 3.8,
+            "image_url": null,
+            "image": "burberry_bufferbrush.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "605",
+            "name": "Prime Time Foundation Primer",
+            "description": "An amazing preservative-free foundation primer that's great for all skin types. Developed to combat flaky dryness, rough patches, fine lines, excess oil, enlarged pores, and uneven texture, this mineral-infused, satin-finish formula glides on seamlessly with no tacky feel to provide a skin-smoothing complexion before you apply foundation. For added age-defying power, it is infused with soothing plant extracts, antioxidants, and nourishing vitamins C and E",
+            "price": 25.95,
+            "category": 1,
+            "rating": 4.1,
+            "image_url": null,
+            "image": "bareMinerals_Prime-Time-Foundation-Primer-Brightening_Brightening.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "10875",
+            "name": "Dazzleshadow x4 Palette",
+            "description": "MAC Dazzleshadow x4 Palette is a Eye Palette. There are 1 shades that have been released, which you can select from below.",
+            "price": 27.99,
+            "category": 2,
+            "rating": 3,
+            "image_url": null,
+            "image": "mac_the-shining-hour_001_palette.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "10873",
+            "name": "Cream Colour Base Eye Shadow Palette x 6",
+            "description": "MAC Cream Colour Base Eye Shadow Palette x 6 is a Eye Palette . There have released 1 shade so far",
+            "price": 23.99,
+            "category": 2,
+            "rating": 2.5,
+            "image_url": null,
+            "image": "mac_glamourize-me_001_palette.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "10859",
+            "name": "Petit Pro Palette",
+            "description": "A gorgeous eye palette",
+            "price": 27.99,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": null,
+            "image": "viseart_01petitpro001.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "10857",
+            "name": "Kyshadow Eyeshadow Palette",
+            "description": "The #KylieCosmetics Kyshadow pressed powder eye shadow palette is your secret weapon to create the perfect Kylie eye. Each Kyshadow Kit comes with 9 pressed powder eye shadows that can be used together to recreate Kylie's favourite looks",
+            "price": 27.99,
+            "category": 2,
+            "rating": 4,
+            "image_url": null,
+            "image": "kylie_royalpeach001.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "10726",
+            "name": "Better Together1",
+            "description": "Kat and Jerrod each curated six brand new eye shadows for their respective sides of the palette. Inspired by a BFF heart necklace, the palette has a magnetic center panel, so you can separate the two halves of the palette. Create a look using just one side of the palette, or mix and match shades from both sides",
+            "price": 19.99,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": null,
+            "image": "katvond_bettertogethercheekduo001.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "10725",
+            "name": "Better Together2",
+            "description": "Kat and Jerrod each curated six brand new eye shadows for their respective sides of the palette. Inspired by a BFF heart necklace, the palette has a magnetic center panel, so you can separate the two halves of the palette. Create a look using just one side of the palette, or mix and match shades from both sides.",
+            "price": 27.99,
+            "category": 2,
+            "rating": 3,
+            "image_url": null,
+            "image": "katvond_bettertogetherpalette001.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "10689",
+            "name": "Pro to Go Eyeshadow Paletter",
+            "description": "Take a makeup artist on-the-go with this high-performance, portable PRO palette. It includes four longwearing matte and metallic eyeshadows infused with Amazonian clay for smooth blending and flake-resistant wear, plus two iridescent lusters with a microshimmer duochrome formula. Deeply concentrated mineral pigments with a smart-blend technology give you the same even, intense payoff as the original tarte PRO palette with new, natural artistry shades for a complete travel shadow collection",
+            "price": 27.99,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": null,
+            "image": "tarte_tartesttogo001.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "10688",
+            "name": "Eyeshadow Palette",
+            "description": "Queen of Hearts is a 12 pan palette consistent of 6 matte and 6 foil shades that creates various looks from day to night",
+            "price": 25.95,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": null,
+            "image": "colouredraine_queenofhearts001.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "10685",
+            "name": "Double Duty Beauty Eyeshadow Palette",
+            "description": "The super portable palette holds seven creaseless, blendable eyeshadows in soft, pigmented nude, brown and bronze shades. The mixed matte and microshimmer shadows come paired with a full size eye and cheek highlighter to create a soft, white gold strobe on the brow and cheek bones and highlight the inner corners of the eyes. Powered by Amazonian clay, each buildable, longwearing shade balances skin so pigment stays put all in one palette with mirror so you can touch-up and go",
+            "price": 19.99,
+            "category": 2,
+            "rating": 3.8,
+            "image_url": null,
+            "image": "tarte_dontquityourdaydream001.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "10566",
+            "name": "Chocolate Chip Palette",
+            "description": "The delectable White Chocolate Chip Palette features 11 antioxidant-rich, cocoa powder-infused shades with a signature chocolate scent. With a confection of pastels, creamy nudes, and a pop of black, these high-pigment eyeshadows offer true color payoff and a silky smooth finish",
+            "price": 27.99,
+            "category": 2,
+            "rating": 4.1,
+            "image_url": null,
+            "image": "toofaced_whitechocolatepalette001.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "10869",
+            "name": "Crystal Glaze Gloss",
+            "description": "MAC Crystal Glaze Gloss is a Lipgloss. There are 8 shades that have been released",
+            "price": 15.95,
+            "category": 3,
+            "rating": 4,
+            "image_url": null,
+            "image": "mac_ice-follies_001_product.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "10694",
+            "name": "Sweet Peach Creamy Peach Oil Lip Gloss",
+            "description": "Sweet Peach Creamy Lip Oil has a moisture-rich formula that feels lightweight and creamy. It features shades in nudes, peachy pinks, and corals. Silky and smooth, infused with the skin-loving essence of peach, coconut oil, and vitamins, and each shade smells just like peaches",
+            "price": 15.99,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": null,
+            "image": "toofaced_papadontpeachgloss001.jpg"
+        }
+    },
+    {   "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "10423",
+            "name": "Victoria Beckham Lip Gloss",
+            "description": "A high-shine lip-gloss. Can be worn alone or over the Victoria Lip Pencil or Lipstick. Now in a new sleek vial",
+            "price": 19.99,
+            "category": 3,
+            "rating": 3,
+            "image_url": null,
+            "image": "esteelauder_moroccanheat001.jpg"}
+    },
+    {
+      "pk": 21,
+      "model":"products.product",
+      "fields":{
+         "sku":"10417",
+         "name":"Lip Injection Ultimate Lip Plumper",
+         "description":"Too Faced Lip Injection Ultimate Lip Plumper is a Lipgloss. There is 1 shade that has been released",
+         "price":27.99,
+         "category":3,
+         "rating":2.5,
+         "image_url": null,
+         "image":"toofaced_naughtykisses005.jpg"
+      }
+   },
+   {
+    "pk": 22,
+    "model":"products.product",
+    "fields":{
+       "sku":"8906",
+       "name":"Sized to Go Lipgloss",
+       "description":"A gloss in a wide colour range that can create a glass-like finish or a subtle sheen. All Sized to Go products are totally tote-able in an airport-friendly size of 30ml or less",
+       "price":15.99,
+       "category":3,
+       "rating":4.9,
+       "image_url":null,
+       "image":"mac_fashionpunch001.jpg"
+    }
+ },
+   {
+      "pk": 23,
+      "model":"products.product",
+      "fields":{
+         "sku":"7992",
+         "name":"Alter Ego Lip Gloss",
+         "description":"Instantly transform your look with LORAC Alter Ego Lip Gloss. These sexy and playful lip glosses coat your lips in highly-pigmented, glossy color with a soft Vanilla scent. Alter Ego Lip Gloss contains antioxidants such as Acai Berry, Pomegranate, Grape Seed Extract, and Vitamins C and E. Whether you wish to be a Free Spirit, a Goddess or a Vixen (even if just for a night), Alter Ego Lip Gloss comes in a gorgeous range of colors from soft nudes to vivid hues to create any look you covet. Embrace your every identity and dress up your lips with LORAC",
+         "price":23.99,
+         "category":3,
+         "rating":3.8,
+         "image_url":null,
+         "image":"lorac_barista_001_product.jpg"
+      }
+   },
+   {
+      "pk": 24,
+      "model":"products.product",
+      "fields":{
+         "sku":"90",
+         "name":"Sheer Color Lip Gloss",
+         "description":"Bobbi has sized up all her glosses to give you an extra dose of shine. Wear it on its own for sheer color or swipe it on top of lipstick for extra shine, plus the new tapered applicator lets you apply it like a pro. Bonus: Sheer Color Lip Gloss is infused with soothing botanical extracts to keep lips healthy and soft",
+         "price":23.99,
+         "category":3,
+         "rating":4.1,
+         "image_url": null,
+         "image":"bobbibrown_citrus001.jpg"
+      }
+   },
+   {
+      "pk": 25,
+      "model":"products.product",
+      "fields":{
+         "sku":"7759",
+         "name":"Cle de Peau",
+         "description":"This luxurious formulation combines the drama and vibrancy of gloss with enduring deep color",
+         "price":19.99,
+         "category":3,
+         "rating":4,
+         "image_url": null,
+         "image":"cledepeau_2lipgloss001.jpg"
+      }
+   },
+   {
+      "pk": 26,
+      "model":"products.product",
+      "fields":{
+         "sku":"7682",
+         "name":"Tarteist Glossy Lip Paint",
+         "description":"Lacquer up your lippies with this glossy version of tarte longwearing tarte lip paint. This luxe, liquid lip paint features concentrated pigments in a conditioning serum for gorgeous color with a hydrating, glossy finish. Vegan friendly, natural skin soothers and conditioners leave lips soft, supple and nourished while the high-shine, non-sticky formula pumps up the volume for a fuller, pouty look. Available in natural and trendy nudes and plums, you can paint on precise pigment using the slanted paint brush wand and deliver sexy color and shine in a simple stroke. ",
+         "price":15.99,
+         "category":3,
+         "rating":4.5,
+         "image_url": null,
+         "image":"tarte_doubletap001.jpg"
+      }
+   }
+]

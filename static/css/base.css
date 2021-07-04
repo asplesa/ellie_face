@@ -15,6 +15,10 @@ html {
     font-family: 'Lato';
 }
 
+.header-container-products {
+    padding-top: 164px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

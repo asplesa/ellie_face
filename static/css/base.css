@@ -146,6 +146,12 @@ a.category-badge > span.badge:hover {
     height: 250px;
 }
 
+/* -------------------------------- Our Promise on Homepage */
+
+.our-promise {
+    height: 300px;
+    margin: 5px;
+}
 
 .btt-button {
     height: 42px;

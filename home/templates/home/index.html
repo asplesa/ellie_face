@@ -4,23 +4,90 @@
 {% block page_header %}
 <!--- Hero image and text --->
 <div class="container-fluid header-container">
-    <div class="row">
-        <div class="col"></div>
+  <div class="row">
+    <div class="col"></div>
+  </div>
+  <div class="col-7 col-md-6 my-auto">
+    <h1 class="display-4 logo-font text-black">
+      Great skin starts here!
+    </h1>
+    <div class="my-5">
+      <h4>
+        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-4 text-uppercase py-3">Shop Now</a>
+      </h4>
     </div>
-    <div class="col-7 col-md-6 my-auto">
-        <h1 class="display-4 logo-font text-black">
-            Great skin starts here!
-        </h1>
-        <div class="my-5">
-            <h4>
-                <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-4 text-uppercase py-3">Shop Now</a>
-            </h4>
-        </div>
-    </div>
+  </div>
 </div>
 {% endblock %}
 
 {% block content %}
-{% include 'home/includes/hp-bestsellers.html' %}
-{% include 'home/includes/our-promise.html' %}
+<!--- Header Text --->
+<section>
+  <div class="container-fluid">
+    <div class="container">
+      <h2 class="best-sellers-header">Check out our Bestsellers</h2>
+      <img src="" alt="" class="center">
+    </div>
+
+    <!--- Best Selling Products --->
+    <div class="container">
+      <div class="row">
+        {% for product in products %}
+        <div class="col-sm-6 col-md-6 col-lg-4">
+          <div class="card border-0">
+            <!-- Product Image -->
+            {% if product.image %}
+            <a href="{% url 'product_detail' product.id %}">
+              <img class="card-img-top" src="{{ product.image.url }}" alt="{{ product_name }}" />
+            </a>
+            {% else %}
+            <a href="{% url 'product_detail' product.id %}">
+              <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product_name }}" />
+            </a>
+            {% endif %}
+          </div>
+          <!-- Card Body -->
+          <div class="card-body pl-0">
+            <a href="{% url 'product_detail' product.id %}">
+              <h4 class="card-title pb-0">{{ product.name }}</h4>
+            </a>
+            {% if product.category %}
+            <p class="product-category">
+              <a
+                href="{% url 'products' %}?category={{ product.category.name }}">{{ product.category.friendly_name }}</a>
+            </p>
+            {% endif %}
+            <p class="card-text">{{ product.price}}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Our Promise section -->
+<section class="container-fluid our-promise mr-4">
+  <div class="row">
+    <div class="col-sm-6 half-left ">
+      <img class="promise-image" src="{{ MEDIA_URL }}beautiful-skin.jpg" alt="beautiful-skin" />
+    </div>
+    <div class="col-sm-6 half-right">
+      <div>
+        <h2>Our Promise</h2>
+        <p class="about-content">
+          We believe in beautiful skin and nails for everyone. That’s why we sell products to make your
+          skin dreams come true. No matter who you are, where you live, or what you do, you deserve to
+          feel like your best self.
+        </p>
+
+      </div>
+      <div class="about-content">
+        <a href="{% url 'products' %}" class="shop-now-button btn btn-sm rounded-4 py-2"><strong>Shop Now</strong></a>
+      </div>
+    </div>
+  </div>
+</section>
+
 {% endblock %}

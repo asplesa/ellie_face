@@ -73,8 +73,12 @@ html {
     font-size: 15px !important;
 }
 
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+
 /* -------------------------------- Footer */
-footer {
+#footer {
     background-color:#fff099;
     min-height: 130px;
     margin-top: 0;

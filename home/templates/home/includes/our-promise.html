@@ -1,3 +1,4 @@
+{% block content %}
 <!--- Image in container --->
 <div class="container-fluid">
     <div class="row">
@@ -19,7 +20,7 @@
                             skin dreams come true. No matter who you are, where you live, or what you do, you deserve to
                             feel like your best self.</p>
                         <h4>
-                            <a href="" class="shop-now-button btn btn-sm rounded-4 py-2">Shop Now</a>
+                            <a href="{% url 'products' %}" class="shop-now-button btn btn-sm rounded-4 py-2">Shop Now</a>
                         </h4>
                     </div>
                 </div>
@@ -27,3 +28,4 @@
         </div>
     </div>
 </div>
+{% endblock %}

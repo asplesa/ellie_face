@@ -125,10 +125,26 @@ a.category-badge > span.badge:hover {
     font-size: 2.6rem;
 }
 
+.best-sellers {
+    height: 600px;
+    object-fit: contain;
+}
 
 .homepage-cards, .homepage-cards-3 {
     height: 375px;
     margin-top: 2rem;
+}
+
+.product-card-title {
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.product-price {
+    text-align: center;
+    line-height: .1rem;
+    color: var(--color-black);
 }
 
 .shop-now-button {
@@ -152,10 +168,26 @@ a.category-badge > span.badge:hover {
     height: 250px;
 }
 
+.category-card-row {
+    margin: 35px 0;
+    height: fit-content;
+}
+
+.div-category-card-img {
+    height: fit-content;
+    width: 165px;
+    margin: 20px auto 0 auto;
+}
+
+.div-product-card-img img, .div-category-card img {
+    width: 100%;
+}
+
 /* -------------------------------- Our Promise on Homepage */
 
 .our-promise {
-    height: 300px;
+    object-fit: contain;
+    height: 400px;
     margin: 5px;
 }
 

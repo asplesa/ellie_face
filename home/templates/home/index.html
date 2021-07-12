@@ -20,51 +20,89 @@
 </div>
 {% endblock %}
 
-{% block content %}
-<!--- Header Text --->
-<section>
-  <div class="container-fluid">
-    <div class="container">
-      <h2 class="best-sellers-header">Check out our Bestsellers</h2>
-      <img src="" alt="" class="center">
-    </div>
 
-    <!--- Best Selling Products --->
-    <div class="container">
-      <div class="row">
-        {% for product in products %}
-        <div class="col-sm-6 col-md-6 col-lg-4">
-          <div class="card border-0">
-            <!-- Product Image -->
-            {% if product.image %}
-            <a href="{% url 'product_detail' product.id %}">
-              <img class="card-img-top" src="{{ product.image.url }}" alt="{{ product_name }}" />
-            </a>
-            {% else %}
-            <a href="{% url 'product_detail' product.id %}">
-              <img class="card-img-top" src="{{ MEDIA_URL }}noimage.png" alt="{{ product_name }}" />
-            </a>
-            {% endif %}
+{% block content %}
+<!--- Bestsellers Section --->
+<section class="container-fluid best-sellers">
+<div class="container-fluid">
+            <!--- Best Selling Header --->
+            <div>
+              <h2 class="best-sellers-header">Check out our Bestsellers</h2>
+              <img src="" alt="" class="center">
+            </div>
+
+        <!--- Best Selling Products --->
+        <div class="container">
+          <div class="row mt-4">
+            <div class="row product-card-row mb-5">
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="div-product-card">
+                  <div class="div-product-card-img">
+                    <div class="product-card-content">
+                      <!--- feature product one --->
+                      <a href="{% url 'product_detail' featured_product_1.id %}" class="product-page-link">
+                        <div class="div-product-card-img">
+                          {% if featured_product_1.image %}
+                          <img src="{{ MEDIA_URL }}{{ featured_product_1.image }}" alt="{{ featured_product_1.name }}">
+                          {% else %}
+                          <img src="{{ MEDIA_URL }}no_image.png" alt="No Image Available">
+                          {% endif %}
+                        </div>
+                        <p class="product-card-title">{{ featured_product_1.name }}</p>
+                        <p class="product-price text-center">€{{ featured_product_1.price }}</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="div-product-card">
+                  <div class="div-product-card-img">
+                    <!--- feature product two --->
+                    <div class="product-card-content">
+                      <a href="{% url 'product_detail' featured_product_2.id %}" class="product-page-link">
+                        <div class="div-product-card-img">
+                          {% if featured_product_2.image %}
+                          <img src="{{ MEDIA_URL }}{{ featured_product_2.image }}" alt="{{ featured_product_2.name }}">
+                          {% else %}
+                          <img src="{{ MEDIA_URL }}no_image.png" alt="No Image Available">
+                          {% endif %}
+                        </div>
+                        <p class="product-card-title">{{ featured_product_2.name }}</p>
+                        <p class="product-price text-center">€{{ featured_product_2.price }}</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <div class="div-product-card">
+                  <div class="div-product-card-img">
+                    <!--- feature product three --->
+                    <div class="product-card-content">
+                      <a href="{% url 'product_detail' featured_product_3.id %}" class="product-page-link">
+                        <div class="div-product-card-img">
+                          {% if featured_product_3.image %}
+                          <img src="{{ MEDIA_URL }}{{ featured_product_3.image }}" alt="{{ featured_product_3.name }}">
+                          {% else %}
+                          <img src="{{ MEDIA_URL }}no_image.png" alt="No Image Available">
+                          {% endif %}
+                        </div>
+                        <p class="product-card-title">{{ featured_product_3.name }}</p>
+                        <p class="product-price text-center">€{{ featured_product_3.price }}</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- Card Body -->
-          <div class="card-body pl-0">
-            <a href="{% url 'product_detail' product.id %}">
-              <h4 class="card-title pb-0">{{ product.name }}</h4>
-            </a>
-            {% if product.category %}
-            <p class="product-category">
-              <a
-                href="{% url 'products' %}?category={{ product.category.name }}">{{ product.category.friendly_name }}</a>
-            </p>
-            {% endif %}
-            <p class="card-text">{{ product.price}}</p>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
+      </div>  
+</div>  
 </section>
+
+
+
 
 
 <!-- Our Promise section -->

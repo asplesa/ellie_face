@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block page_header %}
+ <!--- Blog Heading --->
+<div class="container header-container-products">
+    <div class="row">
+        <div class="col">
+            <h2 class="best-sellers-header">Skincare Blogs</h2>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+ <!--- Blog Intro --->
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row mt-3">
+                    <div class="container">
+                        <p class="paragraph-margin">
+                            Your skin deserves a routine as unique as you are. That’s why we’re always chatting with skin care experts and looking into the latest products, treatments and tips to help you create your perfect skin care routine. Whether your skin is sensitive, dry or acne-prone, you’ll find tips for all your concerns.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--- Blogs --->
+    <section>
+    <div class="bg-white-trans-blog">
+        <div class="row">
+            <div class="col-8 offset-2">
+            </div>
+        </div>
+        {% for post in posts %}
+        <div class="row mt-4">
+            <div class="col-8 offset-2">
+                <h3 class="blog-title mt-3">{{ post.title }}</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <div class="text-muted">{{ post.date_added | date:"d M - Y | h:i"}}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 offset-2">
+                <article>{{ post.intro }}</article>
+            </div>
+        </div>
+        <div class="row pb-2 mt-3">
+            <div class="col-8 offset-2">
+                <a href="{% url 'detail_post'  post.slug %}" class="shop-now-button btn btn-sm rounded-4 py-2"><strong>Read more</strong></a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>
+{% endblock %}

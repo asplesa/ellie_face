@@ -87,9 +87,11 @@ a.category-badge > span.badge:hover {
 /* -------------------------------- Footer */
 #footer {
     background-color: #fff099;
-    min-height: 130px;
-    margin-top: 0;
+    height: 95px;
     font-weight: bold;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-link {
@@ -104,7 +106,7 @@ a.category-badge > span.badge:hover {
 }
 
 .footer-row {
-    padding-top: 35px;
+    padding-top: 30px;
     margin: 0;
 }
 
@@ -179,6 +181,7 @@ a.category-badge > span.badge:hover {
     height: 300px;
     margin-left: 20px;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .btt-button {

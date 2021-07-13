@@ -135,17 +135,6 @@ a.category-badge > span.badge:hover {
     margin-top: 2rem;
 }
 
-.product-card-title {
-    font-size: 1.2rem;
-    text-align: center;
-    color: var(--color-black);
-}
-
-.product-price {
-    text-align: center;
-    line-height: .1rem;
-    color: var(--color-black);
-}
 
 .shop-now-button {
     background: #fff099;
@@ -187,8 +176,9 @@ a.category-badge > span.badge:hover {
 
 .our-promise {
     object-fit: contain;
-    height: 400px;
-    margin: 5px;
+    height: 300px;
+    margin-left: 20px;
+    margin: auto;
 }
 
 .btt-button {

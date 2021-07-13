@@ -1,5 +1,7 @@
 html {
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .container-fluid {
@@ -384,3 +386,11 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+
+
+@media screen and (max-width: 543px){
+    .logo-font{
+        left: 0px
+    }
+}    

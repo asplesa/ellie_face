@@ -13,7 +13,7 @@
     </h1>
     <div class="my-5">
       <h4>
-        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-4 text-uppercase py-3">Shop Now</a>
+        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-4 text-uppercase py-3"><strong>Shop Now</strong></a>
       </h4>
     </div>
   </div>
@@ -99,45 +99,6 @@
           </div>
       </div>  
 </div>  
-</section>
-
-
-<!-- Our Promise section -->
-<section>
-     <!--- Our Promise Header --->
-     <div>
-      <h2 class="best-sellers-header">Our Promise</h2>
-      <img src="" alt="" class="center">
-    </div>
-
-<div class="container our-promise">
-  <div class="row">
-      <div class="col-sm-6">
-          <img src="{{ MEDIA_URL }}beautiful-skin.jpg" alt="">
-          <div class="container">
-              <div class="row">
-                  <div class="col-sm-6 col-sm-offset-6">
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div class="col-sm-6">
-          <div class="container">
-              <div class="row">
-                  <!--- paragraph --->
-                  <div class="col-sm-12">
-                      <p class="about-content"> We believe in beautiful skin and nails for everyone. That’s why we sell products to make your
-                        skin dreams come true. No matter who you are, where you live, or what you do, you deserve to
-                        feel like your best self.</p>
-                      <div class="about-content">
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-sm rounded-4 py-2"><strong>Shop Now</strong></a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
 </section>
 
 {% endblock %}

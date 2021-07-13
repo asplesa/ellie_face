@@ -8,12 +8,14 @@ html {
 }
 
 .header-container {
-    background: url('/media/ellieface_cover_image.jpg') no-repeat center center fixed;
+    background: url('/media/ellieface_cover_image.jpg') no-repeat center center;
     background-size: cover;
     height: 500px;
     color: #555;
     font-family: 'Lato';
 }
+
+
 
 .header-container-products {
     padding-top: 164px;
@@ -102,7 +104,7 @@ a.category-badge > span.badge:hover {
 }
 
 .footer-link:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .footer-row {
@@ -110,14 +112,24 @@ a.category-badge > span.badge:hover {
     margin: 0;
 }
 
-.social-media {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-}
-
 .social-link {
     color: black;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 130%;
+    margin: 1%;
+    padding: 5%;
+    color: #000;
 }
 
 /* -------------------------------- Best Sellers on Homepage */
@@ -172,34 +184,6 @@ a.category-badge > span.badge:hover {
 
 .div-product-card-img img, .div-category-card img {
     width: 100%;
-}
-
-/* -------------------------------- Our Promise on Homepage */
-
-.our-promise {
-    object-fit: contain;
-    height: 300px;
-    margin-left: 20px;
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.btt-button {
-    height: 42px;
-    width: 42px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-
-.btt-link,
-.update-link,
-.remove-item {
-    cursor: pointer;
-}
-
-input[name='q']::placeholder {
-    color: #aab7c4;
 }
 
 /* ------------------------------- bootstrap toasts */

@@ -368,6 +368,12 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
+/* Contact page */
+
+.message-form{
+    padding: 10px;
+
+}
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<!--- Header --->
+<div class="container header-container-products">
+    <div class="row-products">
+        <div class="col text-center mt-3 mb-3 pb-1">
+            <h2 class="logo-font">Contact Us</h2>
+        </div>
+    </div>
+    
+    <!-- Contact Form -->
+    <div class="container">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+        <form id="message-form">
+            <label for="fullname">Full Name *</label>
+            <input type="text" name="name" class="form-control margin-5" id="fullname" required/>
+            <label for="emailaddress">Email Address *</label>
+            <input type="email" name="emailaddress" class="form-control margin-5" id="emailaddress" minlength="10" pattern=".+.com" required/>
+            <label for="projectsummary">Message *</label>
+            <textarea rows="5" name="projectsummary" class="form-control margin-5" style="height:200px" id="projectsummary" required></textarea>
+            <button class="shop-now-button btn btn-sm rounded-4 py-2 mb-4 mt-4" type="submit" id="submit"><strong>Send Message</strong></button>
+        </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript" src="{% static 'js/maps.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/email.js' %}"></script>
+{% endblock %}

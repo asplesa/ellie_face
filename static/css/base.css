@@ -157,7 +157,6 @@ a.category-badge > span.badge:hover {
 }
 
 .best-sellers {
-    height: 600px;
     object-fit: contain;
 }
 

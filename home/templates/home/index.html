@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block page_header %}
-<!--- Hero image and text --->
+<!-- Hero image and text -->
 <div class="container-fluid header-container">
   <div class="row">
     <div class="col"></div>
@@ -22,16 +22,15 @@
 
 
 {% block content %}
-<!--- Bestsellers Section --->
+<!-- Bestsellers Section -->
 <section class="container-fluid best-sellers">
 <div class="container-fluid">
-            <!--- Best Selling Header --->
+            <!-- Best Selling Header -->
             <div>
               <h2 class="best-sellers-header">Check out our Bestsellers</h2>
-              <img src="" alt="" class="center">
             </div>
 
-        <!--- Best Selling Products --->
+        <!-- Best Selling Products -->
         <div class="container">
           <div class="row mt-4">
             <div class="row product-card-row mb-5">
@@ -39,7 +38,7 @@
                 <div class="div-product-card">
                   <div class="div-product-card-img">
                     <div class="product-card-content">
-                      <!--- feature product one --->
+                      <!-- feature product one -->
                       <a href="{% url 'product_detail' featured_product_1.id %}" class="product-page-link">
                         <div class="div-product-card-img">
                           {% if featured_product_1.image %}
@@ -58,7 +57,7 @@
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="div-product-card">
                   <div class="div-product-card-img">
-                    <!--- feature product two --->
+                    <!-- feature product two -->
                     <div class="product-card-content">
                       <a href="{% url 'product_detail' featured_product_2.id %}" class="product-page-link">
                         <div class="div-product-card-img">
@@ -78,7 +77,7 @@
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="div-product-card">
                   <div class="div-product-card-img">
-                    <!--- feature product three --->
+                    <!-- feature product three -->
                     <div class="product-card-content">
                       <a href="{% url 'product_detail' featured_product_3.id %}" class="product-page-link">
                         <div class="div-product-card-img">

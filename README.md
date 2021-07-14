@@ -36,7 +36,7 @@ Ellie Face is an online skincare and makeup ecommerce store. The store also has 
 
 ![homepage](readme/images/ responsive-image.JPG)
 
-The live website can be found [here](https://ellie_face.herokuapp.com/)
+The live website can be found [here](https://ellie-face.herokuapp.com/)
 
 
 

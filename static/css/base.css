@@ -1,15 +1,19 @@
 *{
     margin:0;
     padding:0;
-    border:0;
 }
 
-html {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+  }
+  
 
 .container-fluid {
     padding: 0;
@@ -98,7 +102,7 @@ a.category-badge > span.badge:hover {
 /* -------------------------------- Footer */
 #footer {
     background-color: #fff099;
-    min-height: 80px;
+    height: 100px;
     font-weight: bold;
     left: 0;
     bottom: 0;

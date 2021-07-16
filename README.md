@@ -501,7 +501,7 @@ Once the project has been loaded into an IDE of choice, run the following comman
 
 * All images excluding product images were taken from [Canva](https://canva.com/)
 * All product images were obtained from [Kaggle](https://kaggle.com/).
-* All product datasets were also obtained from [Kaggle](https://kaggle.com/).
+* All product datasets were also obtained from [Kaggle](hresttps://kaggle.com/).
 
 
 ## Many thanks to

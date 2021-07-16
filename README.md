@@ -28,13 +28,13 @@
 
 # Project Summary
 
-The goal of this project was to create a fully functioning e-commerce personal care website that allows customers to purchase products with Stripe. In addition the application provides the functionality that allows the Superuser/Admin to add, edit and delete products and add and edit blog posts. These actions can be done through Django admin site 
+The goal of this project was to create a fully functioning e-commerce personal care website that allows customers to purchase products with Stripe. In addition the application provides the functionality that allows the Superuser/Admin to add, edit and delete products and add and edit blog posts. These actions can be done through Django admin site. 
 
 Customers can also create accounts that allow them to store their delivery details and also allows them to see their order history.
 
-Ellie Face is an online skincare and makeup ecommerce store. The store also has a blog page with skincare tips and advice.
+Ellie Face is an online skincare and makeup e-commerce store. The store also has a blog page with skincare tips and advice.
 
-![homepage](readme/images/ responsive-image.JPG)
+![homepage](readme/images/responsive-image.JPG)
 
 The live website can be found [here](https://ellie-face.herokuapp.com/)
 
@@ -44,7 +44,7 @@ The live website can be found [here](https://ellie-face.herokuapp.com/)
 
 ## The Strategy Plane
 
-Ellie Face is an ecommerce site, dominated in Euro and based in Ireland. It sells a curated range of skincare and makeup products.
+Ellie Face is an e-commerce site, dominated in Euro and based in Ireland. It sells a curated range of skincare and makeup products.
 
 ## User Stories
 
@@ -70,7 +70,7 @@ As a customer...
 
 ## The Scope Plane 
 
-In designing the page, I wanted it to be immediately clear what the purpose of the site is. The shop now CTA button on the hero image achieves this, along with easy search in the header. 
+In designing the page, I wanted it to be immediately clear what the purpose of the site is. The SHOP NOW button on the hero image achieves this, along with easy search in the header. 
 
 ### Features planned:
 
@@ -86,8 +86,8 @@ In designing the page, I wanted it to be immediately clear what the purpose of t
 
 ## The Structure Plane
 
-When the user arrives on site, it will see the hero image and text which 
-On entering the site, users are greeted with a colourful hero image of a lady with great skin. To the left of the image is a shop now button allowing customers to start immediately if they wish.
+When the user arrives on site, they will see the hero image and text which 
+On entering the site, users are greeted with a colourful hero image of a lady with great skin. To the left of the image is a shop now button allowing customers to start shopping immediately if they wish.
 Below this there are some images of the bestselling products, along with the prices for transparency.
 Search and filter features on the top of every page allow customers to quickly and easily find the products they are looking for.
 
@@ -105,7 +105,7 @@ The about page explains a little about the owners of the website with a paragrap
 
 ### Wireframes
 
-Balsamiq was used to create wireframes for the site. These are be found [here](wireframes.md).
+Balsamiq was used to create wireframes for the site. These are be found [here](wireframes).
 
 The initial wireframes consisted of 10 pages and wireframes were created from desktop, mobile and tablet.
  
@@ -218,7 +218,7 @@ The main font used throughout the website is Segeo UI which works well, it is cl
 
 ### Images
 
-All images excluding product images were taken from [Canva](https://canva.com/)
+All images excluding product images were taken from [Canva](https://canva.com/).
 All product images were obtained from [Kaggle](https://kaggle.com/).
 All product datasets were also obtained from [Kaggle](https://kaggle.com/).
  
@@ -227,7 +227,6 @@ All product datasets were also obtained from [Kaggle](https://kaggle.com/).
 
 ## Existing Features
 
-Web App Sections:
 * Navigation bar
     * Navigation bar is visible at the top of every page. On mobiles devices it toggles into hamburger menu. The header also contains the company logo, product search features, access to user accounts and a summary total of the current shopping cart. 
 
@@ -274,8 +273,7 @@ Features include:
 ![search](readme/images/search.JPG)
 
 * Customers can also search by category
-![search](readme/images/search-category.JPG)
-
+![search](readme/images/seach-category.JPG)
 
 
 ### Toasts
@@ -432,7 +430,7 @@ code is validated through [PEP8](http://pep8online.com/).
 # Deployment
 
 ## AWS S3
-Created a new Amazon account and connect to amazon service AWS3 account are cloud based serve where the project media and staicfiles will be stored unto. At first, we locate S3 on amazon service then we create a bucket. While creating the bucket on S3, the note that public access must be all switched off to allow access for users.
+A new Amazon account was created and connected to amazon service AWS S3. This is a cloud based service where the project media and static files are stored. At first, we located S3 on amazon service amd then we created a bucket. While creating the bucket on S3, it was noted that public access must be all switched off to allow access for users.
 
 Once we've created the bucket, we now can now click on it's properties and enable the Static Website Hosting option, so it can serve the purpose of hosting our static files, you will need to imput an index.html and error.html before saving. Then we go into the created bucket Permissions and click into CORS configuration, this part already have a prefilled default config, All that is needed is just to write the default code and save the config.
 

@@ -122,15 +122,13 @@ a.category-badge > span.badge:hover {
 }
 
 .footer-row {
-    padding-top: 10px;
+    padding-top: 5px;
     margin: 0;
 }
 
 .social-link {
     color: black;
 }
-
-
 
 .social-networks li{
     display: inline;
@@ -372,6 +370,21 @@ a.category-badge > span.badge:hover {
     padding: 10px;
 
 }
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {

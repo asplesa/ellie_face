@@ -1,19 +1,5 @@
 [
     {
-        "pk": 1,
-        "model": "products.product",
-        "fields": {
-            "sku": "23",
-            "name": "Bronzer",
-            "description": "Our must-have Bronzer Brush now features luxuriously soft bristles and a more rounded brush head to provide smoother, more even application of bronzer. Perfect for use with our popular Illuminating Bronzing Powder and Bronzing Powder",
-            "price": 19.99,
-            "category": 1,
-            "rating": 4,
-            "image_url": null,
-            "image": "bobbibrown_2013bronzerblushduo010.jpg"
-        }
-    },
-    {
         "pk": 2,
         "model": "products.product",
         "fields": {

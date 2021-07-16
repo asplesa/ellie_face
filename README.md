@@ -105,7 +105,7 @@ The about page explains a little about the owners of the website with a paragrap
 
 ### Wireframes
 
-Balsamiq was used to create wireframes for the site. These are be found [here](wireframes).
+Balsamiq was used to create wireframes for the site. These are be found [here](readme/wireframes).
 
 The initial wireframes consisted of 10 pages and wireframes were created from desktop, mobile and tablet.
  
@@ -501,7 +501,7 @@ Once the project has been loaded into an IDE of choice, run the following comman
 
 * All images excluding product images were taken from [Canva](https://canva.com/)
 * All product images were obtained from [Kaggle](https://kaggle.com/).
-* All product datasets were also obtained from [Kaggle](hresttps://kaggle.com/).
+* All product datasets were also obtained from [Kaggle](https://kaggle.com/).
 
 
 ## Many thanks to

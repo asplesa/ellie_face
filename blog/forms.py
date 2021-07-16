@@ -1,4 +1,3 @@
-  
 from django import forms
 from .models import Comment
 from .models import Post

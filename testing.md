@@ -21,9 +21,9 @@
 
 ## Responsiveness
 
-![responsivness](readme/images/responsive-image.png)
+![responsivness](readme/images/responsive-image.JPG)
 
-This site was was tested on multiple browsers including Google Chrome, Firefox and Opera), multiple mobile devices (Samsung Galaxy, Huawei, Sony) and tablet device(Samsung Galaxy Tab) and it shown responsiveness and compatibility. Everything is in order and responsive. 
+This site was was tested on multiple browsers including Google Chrome, Firefox and Opera), multiple mobile devices (Samsung Galaxy, Huawei, Sony) and tablet devices to test responsiveness and compatibility. Everything is in order and responsive. 
 
 | Functionality | Expected Outcome | Actual Outcome | Pass/Fail |
 | :-------------: |:----------------:| :--------------: | :---------: |
@@ -91,7 +91,7 @@ This site was was tested on multiple browsers including Google Chrome, Firefox a
 | :-------------: |:----------------:| :--------------: | :---------: |
 | If no items, clicking on `Shop` button | Shows "Shop" page | As Expected | Pass
 | Changing quantity and clicking on Amend button | Changes quantity of product and shows "Cart" page. If quantity changed to zero, removes product from cart | As Expected | Pass
-| Clicking on products image and/or name |S hows that products detail page | As Expected | Pass
+| Clicking on products image and/or name |Shows that products detail page | As Expected | Pass
 | Clicking on `Checkout` button | Opens "Chekout" page | As Expected | Pass
 | Clicking on `Submit` button without filling the form | Redirects user to required field | As Expected | Pass
 | Clicking on `Submit` button after filling out the form | Checks with Stripe if everything is ok and redirects to "Cart" page | As Expected | Pass
